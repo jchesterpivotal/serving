@@ -3,12 +3,12 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:1604410fccff1fa79d0978bf9271d52d9ea1c8c06618d5c624dabba9cfe9cc83"
+  digest = "1:ed1c0da09cf6708ebdfe508deac19465e03e6f40367c7a857ad32f98baaae395"
   name = "bitbucket.org/ww/goautoneg"
   packages = ["."]
   pruneopts = "NUT"
-  revision = "2ae31c8b6b30d2f4c8100c20d527b571e9c433bb"
-  source = "github.com/munnerz/goautoneg"
+  revision = "c6008fefa5b16c73904afa6eefb70147cacacbd1"
+  source = "github.com/markusthoemmes/goautoneg"
 
 [[projects]]
   digest = "1:4f2265c5832962455472837497a7e477cf488202605f5010a2ee3e6817a3f821"
@@ -657,6 +657,14 @@
   pruneopts = "NUT"
   revision = "24b83195037b3bc61fcda2d28b7b0518bce293b6"
   version = "v1.0.4"
+
+[[projects]]
+  branch = "master"
+  digest = "1:ed1c0da09cf6708ebdfe508deac19465e03e6f40367c7a857ad32f98baaae395"
+  name = "github.com/markusthoemmes/goautoneg"
+  packages = ["."]
+  pruneopts = "NUT"
+  revision = "c6008fefa5b16c73904afa6eefb70147cacacbd1"
 
 [[projects]]
   branch = "master"
@@ -1806,6 +1814,7 @@
     "github.com/kelseyhightower/envconfig",
     "github.com/kubernetes-incubator/custom-metrics-apiserver/pkg/cmd",
     "github.com/kubernetes-incubator/custom-metrics-apiserver/pkg/provider",
+    "github.com/markusthoemmes/goautoneg",
     "github.com/mattbaird/jsonpatch",
     "github.com/pkg/errors",
     "github.com/prometheus/client_golang/prometheus",
